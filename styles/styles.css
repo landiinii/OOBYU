@@ -25,7 +25,7 @@ a:hover{
   flex-direction: row;
   justify-content: space-between;
   padding-top: 25px;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .left{
@@ -74,6 +74,11 @@ a:hover{
 .menu-item p{
   margin: 0;
   text-align: center;
+}
+
+.content{
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 

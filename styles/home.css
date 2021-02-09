@@ -1,7 +1,3 @@
-.content{
-  text-align: center;
-}
-
 .intro {
   display: flex;
   flex-direction: column;
@@ -12,22 +8,76 @@
   margin-right: auto;
 }
 
+.explain {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
 .signup{
+  box-shadow: inset 0 0 0 4px #1679d5;
+  color: #58afd1;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
+}
+
+.signup::before, .signup::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.signup::before {
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+}
+.signup::after {
+  border-top-width: 4px;
+  border-right-width: 4px;
+}
+.signup:hover {
+  color: #dc8d1e;
+}
+.signup:hover::before, .signup:hover::after {
+  border-color: #dc8d1e;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.signup:hover::before {
+  transition-delay: 0s, 0s, 0.25s;
+}
+.signup:hover::after {
+  transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+  color: black;
+}
+
+.butt{
   margin-top: 40px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #3492ea;
-  box-shadow: 7px 7px 5px #1679d5;
-  cursor: pointer;
   vertical-align: middle;
   max-width: 250px;
-  padding: 5px;
   text-align: center;
-  border: 2px;
-  border-style: outset;
-  border-color: #1679d5;
-  font-weight: bold;
+  /**border-color: #1679d5;**/
 }
 
 @media only screen and (max-width: 400px){

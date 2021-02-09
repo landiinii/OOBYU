@@ -2,9 +2,33 @@
   text-align: center;
 }
 
-.wrapper {
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.signup{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #19b2c0;
+  box-shadow: 7px 7px 5px #138893;
+  cursor: pointer;
+  vertical-align: middle;
+  max-width: 250px;
+  padding: 5px;
+  text-align: center;
+  border: 2px;
+  border-style: outset;
+  border-color: #138893;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 400px){
+  .signup{
+    width: 200px;
+  }
 }

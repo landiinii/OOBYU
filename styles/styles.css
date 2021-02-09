@@ -3,7 +3,8 @@
   color: black;
 }
 body {
-  font-family: "Raleway",serif;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-weight: 300;
   color: black;
   /**background-image: linear-gradient(to right, #3791E9, #FFFFFF 20%, #FFFFFF 80%, #DB8C23);**/
 }
@@ -13,6 +14,10 @@ h1{
 
 a {
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .menu {

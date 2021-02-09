@@ -7,6 +7,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .signup{
@@ -14,8 +17,8 @@
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #19b2c0;
-  box-shadow: 7px 7px 5px #138893;
+  background-color: #3492ea;
+  box-shadow: 7px 7px 5px #1679d5;
   cursor: pointer;
   vertical-align: middle;
   max-width: 250px;
@@ -23,7 +26,7 @@
   text-align: center;
   border: 2px;
   border-style: outset;
-  border-color: #138893;
+  border-color: #1679d5;
   font-weight: bold;
 }
 

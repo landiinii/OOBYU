@@ -45,3 +45,7 @@
 .list p{
   text-align: left;
 }
+
+.link a {
+  color: #1679d5;
+}

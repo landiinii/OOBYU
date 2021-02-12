@@ -37,11 +37,20 @@
   padding: 10px;
 }
 
-.blueLink a p{
-  color: #1679d5;
+.bluelink {
+  padding: 15px;
 }
+
+.blueLink p{
+  margin: 0px;
+  padding: 0px;
+}
+
 .blueLink a{
   color: #1679d5;
+  margin-top: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .list {

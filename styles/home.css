@@ -154,7 +154,7 @@
     width: 56%;
   }
   .privacy {
-    font-size: 72%;
+    font-size: 74%;
 }
 
 @media only screen and (max-width: 850px){
@@ -162,7 +162,7 @@
     width: 70%;
   }
   .privacy {
-    font-size: 70%;
+    font-size: 73%;
 }
 
 @media only screen and (max-width: 700px){
@@ -170,7 +170,7 @@
     width: 85%;
   }
   .privacy {
-    font-size: 66%;
+    font-size: 72%;
 }
 
 @media only screen and (max-width: 550px){
@@ -178,7 +178,7 @@
     width: 90%;
   }
   .privacy {
-    font-size: 63%;
+    font-size: 71%;
 }
 
 @media only screen and (max-width: 400px){
@@ -190,5 +190,5 @@
     height: 30%;
   }
   .privacy {
-    font-size: 60%;
+    font-size: 70%;
 }

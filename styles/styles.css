@@ -18,11 +18,17 @@ a:hover{
 }
 
 .menu {
+  overflow:hidden;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-top: 25px;
   padding-bottom: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 99;
 }
 
 .left{
@@ -74,14 +80,34 @@ a:hover{
 .content{
   text-align: center;
   margin-bottom: 10px;
+  margin-top: 10%;
 }
 
 
 
-
+@media only screen and (max-width: 1375px){
+  .content{
+    margin-top: 12%;
+  }
+}
+@media only screen and (max-width: 1125px){
+  .content{
+    margin-top: 14%;
+  }
+}
+@media only screen and (max-width: 1125px){
+  .content{
+    margin-top: 16%;
+  }
+}
 @media only screen and (max-width: 886px){
   .menu {
     flex-direction: column;
+    position:inherit;
+    top: auto;
+  }
+  .content{
+    margin-top: 0;
   }
   .left{
     justify-content: center;

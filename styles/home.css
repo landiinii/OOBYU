@@ -80,26 +80,54 @@
   color: black;
 }
 
-.butt{
+.appButt{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  max-width: 300px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  /**border-color: #1679d5;**/
+}
+.butt2{
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.appButt p{
+  margin: 0;
+  padding: 0;
+}
+
+.butt{
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
   max-width: 250px;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
   /**border-color: #1679d5;**/
 }
 
-.butt2{
-  margin-top: 40px;
-  margin-bottom: 40px;
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 850px;
+  justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: middle;
-  max-width: 500px;
-  text-align: center;
-  /**border-color: #1679d5;**/
+  align-items: center;
 }
 
 .youtube {

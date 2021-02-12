@@ -37,6 +37,13 @@
   padding: 10px;
 }
 
+.blueLink a p{
+  color: #1679d5;
+}
+.blueLink a{
+  color: #1679d5;
+}
+
 .list {
   margin-top: 30px;
   padding-left: 10px;

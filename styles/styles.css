@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-  color: black;
-}
 body {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-weight: 300;
@@ -14,6 +10,7 @@ h1{
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 a:hover{

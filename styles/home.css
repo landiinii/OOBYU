@@ -130,6 +130,27 @@
   align-items: center;
 }
 
+.shareButtons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 850px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.share {
+  padding: 10px;
+  margin: 0px;
+}
+
+.twitter, .facebook{
+  padding-bottom: 6px;
+}
+
 .youtube {
   margin: 25px 10px;
   position: relative;

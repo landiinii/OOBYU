@@ -9,6 +9,7 @@
     <link rel="icon" href="/images/logo-nostroke-transparent.png">
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
     <title>BYU Operation Outbreak</title>
   </head>
   <body>
@@ -60,7 +61,13 @@
 
       <div class="content">
         <div class="wrapper">
-          <h1>Simulation Statistics will appear on this page once they are available</h1>
+          <h1>Simulation Stats</h1>
+          <p>*Note that information is cumulative unless otherwise specified*</p>
+        </div>
+        <div class="table">
+          <script src="googlesheets.js" type="text/javascript"></script>
+          <div id="table">
+          </div>
         </div>
       </div>
 

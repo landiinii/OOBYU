@@ -17,7 +17,15 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.groupPhoto img {
+  width: 750px;
+}
+
 .groupPhoto p {
   font-size: 75%;
   font-weight: 200;
@@ -26,6 +34,27 @@
 
 .email a{
   color: #1679d5;
+}
+
+.press {
+  margin-top: 20px;
+}
+
+.press h3{
+  margin-bottom: 3px;
+}
+
+.press a{
+  color: #1679d5;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+.press p{
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
 }
 
 .explain {
